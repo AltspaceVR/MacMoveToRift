@@ -22,19 +22,24 @@ And then to actually move the app onto the Rift, you'll need to switch the app o
 
 			if (wasFullScreen)
 			{
+				// Wait for the OS X full screen animation to complete.
 				yield return new WaitForSeconds(2.0f);
 			}
 
+			// Take the app out of full screen.
 			Screen.fullScreen = false;
 			Screen.SetResolution (1920, 1080, false);
 
 			if (wasFullScreen)
 			{
+				// Wait for the OS X full screen animation to complete.
 				yield return new WaitForSeconds(2.0f);
 			} 
 
+			// Move it onto the Rift via the plugin.
 			MoveWindowToRift();
 
+			// Set the app to full screen on the Rift.
 			Screen.SetResolution (1920, 1080, true);
 		}
 #endif
