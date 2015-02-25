@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,7 +18,7 @@
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		6A3F7F7E10AC146D00948A73 /* MoveToRiftPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveToRiftPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A3F7F7F10AC146D00948A73 /* MoveToRiftPlugin.temp_caseinsensitive_rename-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoveToRiftPlugin.temp_caseinsensitive_rename-Info.plist"; sourceTree = "<group>"; };
+		6A3F7F7F10AC146D00948A73 /* MoveToRiftPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoveToRiftPlugin-Info.plist"; sourceTree = "<group>"; };
 		DD8EF5771A68B26A007CA7AB /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
 		DDF0AC2C1A66088E00F35442 /* ASimplePlugin copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ASimplePlugin copy-Info.plist"; path = "/Users/gfodor/Downloads/SimplestPluginExample/XCodePlugin/ASimplePlugin copy-Info.plist"; sourceTree = "<absolute>"; };
 		DDFF2A9A1A65ECB700BEF346 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -54,7 +54,7 @@
 				089C167CFE841241C02AAC07 /* Resources */,
 				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
 				19C28FB4FE9D528D11CA2CBB /* Products */,
-				6A3F7F7F10AC146D00948A73 /* MoveToRiftPlugin.temp_caseinsensitive_rename-Info.plist */,
+				6A3F7F7F10AC146D00948A73 /* MoveToRiftPlugin-Info.plist */,
 				DDF0AC2C1A66088E00F35442 /* ASimplePlugin copy-Info.plist */,
 			);
 			name = XCodePlugin;
@@ -96,9 +96,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6A3F7F7D10AC146D00948A73 /* MoveToRiftPlugin.temp_caseinsensitive_rename */ = {
+		6A3F7F7D10AC146D00948A73 /* MoveToRiftPlugin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A3F7F8210AC146D00948A73 /* Build configuration list for PBXNativeTarget "MoveToRiftPlugin.temp_caseinsensitive_rename" */;
+			buildConfigurationList = 6A3F7F8210AC146D00948A73 /* Build configuration list for PBXNativeTarget "MoveToRiftPlugin" */;
 			buildPhases = (
 				6A3F7F7A10AC146D00948A73 /* Resources */,
 				6A3F7F7B10AC146D00948A73 /* Sources */,
@@ -108,7 +108,7 @@
 			);
 			dependencies = (
 			);
-			name = MoveToRiftPlugin.temp_caseinsensitive_rename;
+			name = MoveToRiftPlugin;
 			productName = ASimplePlugin;
 			productReference = 6A3F7F7E10AC146D00948A73 /* MoveToRiftPlugin.bundle */;
 			productType = "com.apple.product-type.bundle";
@@ -119,9 +119,10 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0610;
 			};
 			buildConfigurationList = 4FADC23708B4156C00ABE55E /* Build configuration list for PBXProject "MoveToRiftPlugin" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -132,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6A3F7F7D10AC146D00948A73 /* MoveToRiftPlugin.temp_caseinsensitive_rename */,
+				6A3F7F7D10AC146D00948A73 /* MoveToRiftPlugin */,
 			);
 		};
 /* End PBXProject section */
@@ -173,25 +174,23 @@
 		4FADC23808B4156C00ABE55E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		4FADC23908B4156C00ABE55E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -199,7 +198,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -207,7 +206,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
-				INFOPLIST_FILE = "MoveToRiftPlugin.temp_caseinsensitive_rename-Info.plist";
+				INFOPLIST_FILE = "MoveToRiftPlugin-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -224,14 +223,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
-				INFOPLIST_FILE = "MoveToRiftPlugin.temp_caseinsensitive_rename-Info.plist";
+				INFOPLIST_FILE = "MoveToRiftPlugin-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -257,7 +256,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A3F7F8210AC146D00948A73 /* Build configuration list for PBXNativeTarget "MoveToRiftPlugin.temp_caseinsensitive_rename" */ = {
+		6A3F7F8210AC146D00948A73 /* Build configuration list for PBXNativeTarget "MoveToRiftPlugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A3F7F8010AC146D00948A73 /* Debug */,

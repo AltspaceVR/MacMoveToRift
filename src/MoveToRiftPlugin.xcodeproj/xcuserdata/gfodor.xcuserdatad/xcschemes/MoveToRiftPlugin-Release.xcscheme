@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0610"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6A3F7F7D10AC146D00948A73"
                BuildableName = "MoveToRiftPlugin.bundle"
-               BlueprintName = "MoveToRiftPlugin.temp_caseinsensitive_rename"
+               BlueprintName = "MoveToRiftPlugin"
                ReferencedContainer = "container:MoveToRiftPlugin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -39,6 +39,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6A3F7F7D10AC146D00948A73"
+            BuildableName = "MoveToRiftPlugin.bundle"
+            BlueprintName = "MoveToRiftPlugin"
+            ReferencedContainer = "container:MoveToRiftPlugin.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

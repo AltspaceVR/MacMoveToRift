@@ -10,31 +10,31 @@
 	<string>MoveToRiftPlugin</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>E8F48F69D85F7BBB04E9D0A7D846313D4238F917</key>
-		<string>github.com:AltspaceVR/UnityClient.git</string>
+		<key>F94C4FEDAF63AE6C7030D11E63656456818B3839</key>
+		<string>github.com:AltspaceVR/MacMoveToRift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Helpers/Mac/MoveToRiftPlugin/MoveToRiftPlugin.xcodeproj</string>
+	<string>src/MoveToRiftPlugin.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>E8F48F69D85F7BBB04E9D0A7D846313D4238F917</key>
-		<string>../../../../..</string>
+		<key>F94C4FEDAF63AE6C7030D11E63656456818B3839</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:AltspaceVR/UnityClient.git</string>
+	<string>github.com:AltspaceVR/MacMoveToRift.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E8F48F69D85F7BBB04E9D0A7D846313D4238F917</string>
+	<string>F94C4FEDAF63AE6C7030D11E63656456818B3839</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E8F48F69D85F7BBB04E9D0A7D846313D4238F917</string>
+			<string>F94C4FEDAF63AE6C7030D11E63656456818B3839</string>
 			<key>IDESourceControlWCCName</key>
-			<string>UnityClient</string>
+			<string>MacMoveToRift</string>
 		</dict>
 	</array>
 </dict>
