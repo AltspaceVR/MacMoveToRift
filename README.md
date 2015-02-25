@@ -1,6 +1,6 @@
 # MacMoveToRift
 
-This is a Unity plugin which will let you move your game onto a user's Oculus Rift DK2, if one is attached, without any intervention on their part. To install, put the `MoveRiftToMac.bundle` plugin in your Unity `Assets/Plugins` folder. (You can also build it via the XCode project in `src`.)
+This is a Unity plugin which will let you move your game onto an OS X user's Oculus Rift DK2, if one is attached to their Mac, without any intervention on their part. To install, put the `MoveRiftToMac.bundle` plugin in your Unity `Assets/Plugins` folder. (You can also build it via the XCode project in `src`.)
 
 To use the plugin, declare a DllImport for it in one of your MonoBehaviors:
 
