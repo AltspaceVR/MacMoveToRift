@@ -11,7 +11,7 @@ To use the plugin, declare a DllImport for it in one of your MonoBehaviors:
 #endif
 ```
 
-And then to actually move the app onto the Rift, you'll need to move it out of full screen mode, call the plugin, and move it back into full screen mode. This example shows how you'd do it from inside of a coroutine:
+And then to actually move the app onto the Rift, you'll need to switch the app out of screen mode, call the plugin to move it, and switch it back into full screen mode. This example shows how you'd do it from inside of a coroutine:
 
 ```
 #if UNITY_STANDALONE_OSX
